@@ -1,0 +1,7 @@
+print("Risky Stacking")
+print("==============")
+Hoc = int(input("enter the height of one chair in cm: "))
+Ohoc = int(input("enter the height of the stacker pair tower in cm: "))
+print("")
+print("The number of chair legs present in the chair tower is:")
+print(((Ohoc/Hoc * 2) * 4) + " chair legs")
