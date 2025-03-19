@@ -1,0 +1,8 @@
+#Get user input
+price= int(input("Enter price: "))
+
+#Validate greater than 0
+while price <= 0: #keeps riuning loop until a valid input is entered
+    print("Error, price must be greater than 0")
+    price= int(input("Please enter a valid price: ")) #asks user for price again
+print("Valid Price!")
