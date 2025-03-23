@@ -1,6 +1,9 @@
 # Import the users list from myvars.py
 from myvars import users
-import os  # Import os to handle file paths and clear the console
+import os
+import subprocess  # Import subprocess to run another file
+
+signedin = False
 
 # Clear the console
 def clear_console():
@@ -31,6 +34,7 @@ while True:
             password = input("Please enter your password: ").strip()
             if any(user[0] == username and user[1] == password for user in users):  # Check if the password matches
                 print(f"Login successful! Welcome, {username}.")
+                signedin = True
                 break  # Exit the program after successful login
             else:
                 print("Incorrect password. Please try again.")
@@ -62,3 +66,14 @@ while True:
 
     else:
         print("Invalid input. Please enter 'y' or 'n'.")
+
+# If the user is signed in, ask if they want to start another file
+# if signedin:
+#     print("You are signed in")
+#     begin = input("Do you want to begin the other program? (y/n): ").strip().lower()
+#     if begin == "y":
+#         # Run the other file (e.g., other_script.py)
+#         other_file_path = os.path.join(os.path.dirname(__file__), "other_script.py")
+#         subprocess.run(["python", other_file_path])  # Runs the other Python script
+#     else:
+#         print("Goodbye!")
