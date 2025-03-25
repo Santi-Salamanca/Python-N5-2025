@@ -1,5 +1,6 @@
 # Import the users list from myvars.py
 from myvars import users
+from Notesmanager import Notes
 import os
 import subprocess  # Import subprocess to run another file
 
@@ -66,6 +67,11 @@ while True:
 
     else:
         print("Invalid input. Please enter 'y' or 'n'.")
+
+
+if signedin:
+    print("You are signed in")
+    username
 
 # If the user is signed in, ask if they want to start another file
 # if signedin:
