@@ -1,0 +1,34 @@
+1. Personal Notes Manager
+Description: Allow users to create, view, edit, and delete personal notes after logging in.
+Features:
+Each user has their own set of notes stored in a file or database.
+Users can search for notes by title or content.
+Notes are saved and loaded automatically when the user logs in.
+-------------------------------------------------------------------------------------------------
+2. Budget Tracker
+Description: A program that helps users track their income and expenses after logging in.
+Features:
+Users can add income and expense entries.
+View a summary of their financial status (e.g., total income, total expenses, balance).
+Export their budget data to a file for future reference.
+-------------------------------------------------------------------------------------------------
+3. Habit Tracker
+Description: A program that allows users to track daily habits or goals.
+Features:
+Users can add habits they want to track (e.g., "Exercise", "Read 30 minutes").
+Mark habits as completed for each day.
+View progress over time (e.g., streaks or completion rates).
+-------------------------------------------------------------------------------------------------
+4. Simple Chat System
+Description: A program that allows users to send and receive messages with other logged-in users.
+Features:
+Users can send messages to specific usernames.
+Messages are stored in a file or database for each user.
+Users can view their message history after logging in.
+-------------------------------------------------------------------------------------------------
+5. To-Do List with Deadlines
+Description: A program that helps users manage tasks with deadlines.
+Features:
+Users can add tasks with optional deadlines.
+View tasks sorted by priority or due date.
+Mark tasks as completed or delete them when no longer needed.
