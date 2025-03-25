@@ -3,6 +3,10 @@
         {
             "filePath": "Login\\SignUpThatSavesVariables",
             "group": "Default"
+        },
+        {
+            "filePath": "Synonymsfinder.py",
+            "group": "Default"
         }
     ]
 }
