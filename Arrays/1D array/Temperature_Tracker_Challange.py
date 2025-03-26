@@ -1,7 +1,7 @@
 temperatures = []
 
 print("")
-for i in range (5):
+for i in range (7):
     while True:
         temperature = int(input("Please input a temperature: "))
         if temperature >= -20 and temperature <= 50:
@@ -9,11 +9,11 @@ for i in range (5):
             break
         else:
             print("temperature must be between -20 and 50")
-print("Here are all the temperatures: "+temperatures)
+print("Here are all the temperatures:", temperatures)
 total = 0
 for x in range(len(temperatures)):
     total += temperatures[x]
-print(f"The average temperature is: {round(total/5, 1)}")
+print(f"The average temperature is: {round(total/7, 1)}")
 
 
 

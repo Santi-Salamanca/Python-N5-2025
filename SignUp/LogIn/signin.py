@@ -1,8 +1,11 @@
 # Import the users list from myvars.py
-from myvars import users
-from Notesmanager import Notes
+from myvars import users,Notes
 import os
 import subprocess  # Import subprocess to run another file
+
+def finduser():
+for index in range(len(Notes)):
+    
 
 signedin = False
 
@@ -71,8 +74,7 @@ while True:
 
 if signedin:
     print("You are signed in")
-    username
-
+    if username 
 # If the user is signed in, ask if they want to start another file
 # if signedin:
 #     print("You are signed in")
