@@ -1,5 +1,5 @@
 # Import the users list from myvars.py
-from myvars import users,Notes
+from myvars import users
 import os
 import subprocess  # Import subprocess to run another file
 
