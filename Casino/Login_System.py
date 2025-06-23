@@ -38,8 +38,13 @@ def login():
                 break
             else:
                 print("Invalid input try again!")
-
+#####main menu
 while True:
-    signUp()
-    login()
+    question = input("Hello would you like to login (l) or sign up (s) ?")
+    if question == "l":
+        login()
+    elif question == "s":
+        signUp()
+    else:
+        print("Please enter a valid command!")
     
