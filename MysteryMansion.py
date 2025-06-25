@@ -31,15 +31,21 @@ location_descriptions = ["A grand foyer with a crystal chandelier", "Dusty books
 player_commands = ["N", "S", "E", "W", "quit", "help"]
 
 
+name = input("Please enter your player name: ")
+print(f"You are in a Mystery Mansion {name}.")
 
 while True:
-    name = input("Please enter your player name: ")
-    print("You are in a Mystery Mansion.")
-
     command = input("where would you like to go?: (N, S, E, W, quit, help)")
-    if player_commands.includes(command):
-        
+    if command in player_commands:
+        index_commanded = player_commands.index(command)
+        if command == "N" or command == "S" or command == "E" or command == "W":
+            print(f"You have entered the: {location_names[index_commanded]}- {location_descriptions[index_commanded]}")
+        elif command == "help":
+            pass
+        else:
+            exit()
     else:
         print("That is not a valid command!")
+
     
 
