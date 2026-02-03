@@ -22,7 +22,7 @@ decision = str(input("Do you want to enter another fruit? (yes/no): "))
 while decision == "yes" and counter < 6:
 
     #repeat previous
-    fruit = str(input("Please enter your fruit: "))
+    fruit = str(input("Fruit Selection: "))
     fruitsSelection.append(fruit)
     counter += 1
     decision = str(input("DO you want to enter another fruit? (yes/no): "))
